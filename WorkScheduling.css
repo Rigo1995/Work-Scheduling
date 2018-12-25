@@ -1,6 +1,17 @@
 .container{
     background: #f5fffa; 
+    position: relative;
+    text-align: left;
+    margin: auto;
 }
-.Week{
-    background: white;
-}
+table, th, td {
+    width: fit-content;
+    overflow: auto;
+    border-collapse: collapse;
+    position: center;
+    border: 1px solid black;
+    margin: auto;
+    padding: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #b7eec9;
+  }
